@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="Image/x-icon" href="../img/fav-icon.png" rel="icon">
+    <!-- фавікон -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    >
+    <link rel="stylesheet" href="../css/main.min.css">
+    <title>Trading Platform</title>
+  </head>
+
+  <body>
+    <header class="header header--page">
+      <div class="header__container container">
+        <div class="logo">
+          <a href="../index.html" class="logo__link"
+            ><img src="../img/logo.png" alt="logo"
+          ></a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a href="./trading-platform.html" class="nav__link link">TRADING</a>
+            </li>
+            <li class="nav__item">
+              <a href="./trading-instruments-forex.html" class="nav__link link">TRADING INSTRUMENTS</a>
+            </li>
+            <li class="nav__item">
+              <a href="./trading-resources.html" class="nav__link link">RESEARCH & EDUCATION</a>
+            </li>
+            <li class="nav__item">
+              <a href="./about-us.html" class="nav__link link">COMPANY</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__btn-wrp">
+          <button class="header__btn btn btn__main">Sign Up</button>
+          <button class="header__btn btn btn__secondary">Login</button>
+        </div>
+      </div>
+
+      <div class="header-mob container">
+        <div class="logo mob-logo">
+          <a href="" class="logo__link"
+            ><img src="../img/logo.png" alt="logo"
+          ></a>
+        </div>
+        <button type="button" class="mob-menu__open-btn" data-menu-open>
+          <svg class="mob-menu__icon" width="40" height="40">
+            <use href="../img/icons.svg#icon-menu_open"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="backdrop is-hidden" data-menu>
+        <div class="mob-menu">
+          <div class="container">
+            <button type="button" class="mob-menu__close-btn" data-menu-close>
+              <svg class="mob-menu__button-icon" width="40" height="40">
+                <use href="../img/icons.svg#icon-menu_close"></use>
+              </svg>
+            </button>
+            <nav class="mob-nav">
+              <ul class="mob-nav__list list">
+                <li class="mob-nav__item">
+                  <a href="./trading-platform.html" class="mob-nav__link link">TRADING</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="./trading-instruments-forex.html" class="mob-nav__link link">TRADING INSTRUMENTS</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="./trading-resources.html" class="mob-nav__link link">RESEARCH & EDUCATION</a>
+                </li>
+                <li class="mob-nav__item">
+                  <a href="./about-us.html" class="mob-nav__link link">COMPANY</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="mob-header__btn-wrp">
+              <button class="mob-header__btn btn btn__main">Sign Up</button>
+              <button class="mob-header__btn btn btn__secondary">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+      <section class="banner baner--platform platform__hero">
+        <div class="container banner__container">
+          <div class="banner__text-content">
+            <h1 class="banner__title">Superior Trading Platform</h1>
+            <p class="banner__text">
+              Open, Manage & Close Trades Of Your Favorite Global Financial Assets On Our Powerful Trading Platform
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="description platform__description">
+            <div class="container description__container">
+              <div class="description__text-content platform__description-text-content">
+                <h2 class="description__title">Access the Powerful and Dynamic WebTrader with Advanced Features</h2>
+                <p class="description__text platform__description-text">
+                    Connect with the Global Financial Markets Today
+                </p>
+                <p class="description__text description__text--second">
+                    The proprietary cloud-based Globalfx500 WebTrader provides instant access to the global financial markets. The platform is quickly accessible via any web browser and requires no download or installation. The platform is 100% compatible with popular desktop operating systems such as Windows, Linux, and macOS. You are only required to complete a single login to your trading account and you can start viewing live price feeds of your favorite financial assets and open your preferred trades anywhere or anytime you desire.
+                </p>
+              </div>
+    
+              <div class="description__image-wrp platform__description-image-wrp">
+                <img src="../img/trading-platform-description.jpg" alt="Growth chart">
+              </div>
+            </div>
+      </section>
+
+      <section class="about about-section">
+            <div class="container">
+              <ul class="about__block-list list">
+                <li class="about__block-item">
+                  <h2 class="about__block-title">Advanced Charting Capabilities</h2>
+                  <p class="platform__about-text">The Globalfx500 trading platform has powerful charting capabilities to help investors perform comprehensive technical and fundamental analyses of their favorite global financial assets. You can toggle between line and candlestick charts, as well as utilize the numerous available mathematical tools and indicators, such as moving averages and trendlines, to make smart trading decisions online. Comprehensive charting capabilities allow all investors to apply any strategy they wish when they trade online. 
+                  </p>
+                </li>
+    
+                <li class="about__block-item">
+                  <h2 class="about__block-title">Highly Customizable Platform</h2>
+                  <p class="platform__about-text">The proprietary Globalfx500 trading platform was designed to provide customized access to the global financial markets to every individual trader. You can personalize your own trading interface to include your preferred tradable assets and their price feeds, charting type, indicators, as well as your default position size. This ensures that you can access the markets with only your preferences at all times.
+                  </p>
+                </li>
+    
+                <li class="about__block-item">
+                  <h2 class="about__block-title">Innovative Order Types and Best Execution</h2>
+                  <p class="platform__about-text">At Globalfx500, you can access innovative order types to help you to refine your strategy so as to take optimal advantage of the opportunities in the market. In addition to normal market buy/sell orders, there are conditional orders, such as stop losses and take profit, that will help you minimize your risk exposure as well as enhance your potential profitability. All orders at Globalfx500 offer fast trade execution, with investors also updated on all potential latency events beforehand. </p>
+                </li>
+              </ul>
+
+              <button class="platform__btn btn btn__main">Start trading now</button>
+            </div>
+      </section>
+
+      <section class="platform__icon">
+        <div class="container">
+          <h2 class="visually-hidden">Trading</h2>
+          <ul class="hero__benefits-list list">
+            <li class="hero__benefits-item platform__benefits-item">
+              <svg class="hero__benefits-icon" width="56" height="56">
+                <use href="../img/icons.svg#icon-benefit3"></use>
+              </svg>
+              <p class="hero__benefits-txt">
+                Professional multi-asset platform
+              </p>
+            </li>
+  
+            <li class="hero__benefits-item">
+              <svg class="hero__benefits-icon" width="56" height="56">
+                <use href="../img/icons.svg#icon-benefit2"></use>
+              </svg>
+              <p class="hero__benefits-txt">
+                User-friendly and interactive software
+              </p>
+            </li>
+  
+            <li class="hero__benefits-item">
+              <svg class="hero__benefits-icon" width="56" height="56">
+                <use href="../img/icons.svg#icon-benefit5"></use>
+              </svg>
+              <p class="hero__benefits-txt">
+                Comprehensive trading tools and resources
+              </p>
+            </li>
+  
+            <li class="hero__benefits-item">
+              <svg class="hero__benefits-icon" width="56" height="56">
+                <use href="../img/icons.svg#icon-benefit6"></use>
+              </svg>
+              <p class="hero__benefits-txt">
+                Best execution
+              </p>
+            </li>
+  
+            <li class="hero__benefits-item">
+              <svg class="hero__benefits-icon" width="56" height="56">
+                <use href="../img/icons.svg#icon-benefit1"></use>
+              </svg>
+              <p class="hero__benefits-txt">
+                Effective trading support
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="description mobile-block">
+        <div class="container description__container mobile-block__container">
+          <div class="description__text-content mobile-block__text-content">
+            <h2 class="description__title">Mobile Trading</h2>
+            <p class="description__text description__text--second">
+              Technology has made access to the global financial markets very easy and convenient. With many people now spending the bulk of their time on their mobile devices, Globalfx500 has made it possible for investors to trade straight from the palm of their hands without compromising on professional features available on our desktop-based platform. 
+
+              You can access and perform any action on your trading account using your mobile device as long as you have an internet connection. The app’s superior technology allows you to track live price feeds and market trends on your mobile device with maximum flexibility. Its functionality is further boosted by its amazing touch capabilities. Additionally, the Globalfx500 app is compatible with popular mobile operating systems such as iOS and Android. 
+              
+            </p>
+            <button class="mobile-block__btn btn btn__main">Trading now</button>
+          </div>
+
+          <div class="description__image-wrp mobile-block__image-wrp">
+            <img src="../img/platform-mobile.jpg" alt="mobile">
+          </div>
+        </div>
+
+        <div class="container">
+          <ul class="mobile-block__benefits-list list">
+            <li class="mobile-block__benefits-item">
+              <svg class="mobile-block__icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-icon-check"></use>
+              </svg>
+              Android and iOS compatibility
+            </li>
+            <li class="mobile-block__benefits-item">
+              <svg class="mobile-block__icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-icon-check"></use>
+              </svg>
+              All order types available in mobile trading
+            </li>
+            <li class="mobile-block__benefits-item">
+              <svg class="mobile-block__icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-icon-check"></use>
+              </svg>
+              User-friendly interface
+            </li>
+            <li class="mobile-block__benefits-item">
+              <svg class="mobile-block__icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-icon-check"></use>
+              </svg>
+              Enhanced touch capabilities
+            </li>
+            <li class="mobile-block__benefits-item">
+              <svg class="mobile-block__icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-icon-check"></use>
+              </svg>
+              Fully functional as a desktop platform
+            </li>
+            <li class="mobile-block__benefits-item">
+              <svg class="mobile-block__icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-icon-check"></use>
+              </svg>
+              Interactive price charts
+            </li>
+          </ul>
+        </div>
+  </section>
+        
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__wrp">
+          <div class="logo-wrap">
+            <img src="../img/logo.png" alt="logo">
+            <p class="privacy-text">© 2023. All Rights Reserved</p>
+          </div>
+  
+          <nav class="footer__menu">
+  
+            <ul class="footer__menu-list footer__item list">
+              <li class="footer__menu-item"><a href="./trading-platform.html" class="link footer__link  footer__menu-item--title">Trading</a></li>
+              <li class="footer__menu-item"><a href="./account-types.html" class="link footer__link">Account Types</a></li>
+              <li class="footer__menu-item"><a href="./deposits.html" class="link footer__link">Deposits & Withdrawals</a></li>
+            </ul>
+
+            <ul class="footer__menu-list footer__item list">
+              <li class="footer__menu-item"><a href="./trading-platform.html" class="link footer__link footer__menu-item--title">Research & Education</a></li>
+              <li class="footer__menu-item"><a href="./trading-resources-calculator.html" class="link footer__link">Calculators</a></li>
+              <li class="footer__menu-item"><a href="./trading-resources.html" class="link footer__link">E-books</a></li>
+              <li class="footer__menu-item"><a href="./trading-platform.html" class="link footer__link">Video</a></li>
+
+            </ul>
+
+            <ul class="footer__menu-list footer__item list">
+              <li class="footer__menu-item"><a href="./about-us.html" class="link footer__link  footer__menu-item--title">Company</a></li>
+              <li class="footer__menu-item"><a href="./trading-instruments-forex.html" class="link footer__link">Why Investro</a></li>
+              <li class="footer__menu-item"><a href="./contact-us.html" class="link footer__link">Contact US</a></li>
+              <li class="footer__menu-item"><a href="./faq.html" class="link footer__link">FAQs</a></li>
+            </ul>
+
+            <ul class="footer__menu-list footer__item list">
+              <li class="footer__menu-item"><a href="" class="link footer__link  footer__menu-item--title">Trading Instruments</a></li>
+            </ul>
+
+          </nav>
+          
+        </div>
+        <p class="footer-txt">Gain direct access to our vast menu of learning resources which are designed to increase your knowledge about trading, trading strategies, trading tools, economic indicators, market catalysts and more</p>
+      </div>
+    </footer>
+
+    <script src="../js/menu.js"></script>
+  </body>
+</html>

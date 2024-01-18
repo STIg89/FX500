@@ -1,0 +1,32 @@
+@import "./base/reset";
+@import "./base/global";
+@import "./components/container";
+
+@import "./utils/mixin";
+@import "./utils/variables";
+@import "./utils/hidden";
+
+@import "./components/banner";
+@import "./components/btn";
+@import "./components/text-size";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/news";
+@import "./layout/description";
+@import "./layout/video";
+@import "./layout/trader";
+@import "./layout/progress";
+@import "./layout/footer";
+
+@import "./layout/deposits";
+@import "./layout/trading-platform";
+@import "./layout/news-page";
+@import "./layout/account-types";
+@import "./layout/trading-resources";
+@import "./layout/company";
+@import "./layout/form";
+@import "./layout/faq";
+@import "./layout/instruments-forex";
+@import "./layout/trading-resources-calculator";
